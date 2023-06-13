@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto 2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!------------------parte 1 img con borde--------------->
+    <main>
+        <img id="imagen-click" src="/assets/imagen/4.ico" alt="img">
+        <!------------------parte 2 stikers--------------------->
+        <h1>Pedido de Stickers</h1>
+        <div class="grid-container">
+            <div class="c-1">
+                <img src="/assets/imagen/1.ico" alt="1">
+                <input type="number" id="sticker1">
+            </div>
+            <div class="c-2">
+                <img src="/assets/imagen/2.ico" alt="2">
+                <input type="number" id="sticker2">
+            </div>
+            <div class="c-3">
+                <img src="/assets/imagen/3.ico" alt="3">
+                <input type="number" id="sticker3">
+            </div>
+        </div>
+        <button id="pedidoBoton">Realizar Pedido</button>
+        <p id="resultado"></p>
+        <!------------------parte 3 clave------------------------>
+        <div class="div3">
+            <h2>Ingrese su clave</h2>
+            <div class="password">
+                <select name="digito1" id="digito1">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito2" id="digito2">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="digito3" id="digito3">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <button id="ingresar_boton">Ingresar</button>
+                <p id="resultado"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

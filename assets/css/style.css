@@ -1,0 +1,71 @@
+
+/*-------text------*/
+p {
+    font-size: 1.4em;
+}
+h1 {
+    font-size: 1.4em;
+}
+h2 {
+    font-size: 1.4em;
+}
+/*-----------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8da87;
+    background-image: linear-gradient(314deg, #ffe15c60 0%, #fd4c168f 74%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "c-1 c-2 c-3";
+    background-color: #a0a0a0ad;
+    background-image: linear-gradient(314deg, #ffe15c 0%, #ff48006b 74%);
+}
+.c-1 {
+    grid-area: c-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-2 {
+    grid-area: c-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-3 {
+    grid-area: c-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 100px;
+  }
+
+  .div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*----botob----*/
+
+  button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 55px;
+    margin-bottom: 25px;
+    background-color: #faab00;
+    background-image: linear-gradient(314deg, #ffd036 0%, #a172528f 74%);
+  }
