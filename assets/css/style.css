@@ -58,6 +58,12 @@ img {
     justify-content: center;
     align-items: center;
   }
+  .select {
+    display: flex;
+    flex-direction: column;
+
+
+  }
 
   /*----botob----*/
 

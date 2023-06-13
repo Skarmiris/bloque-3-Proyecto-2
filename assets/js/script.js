@@ -36,15 +36,15 @@ ingresar_boton.addEventListener("click", () => {
   let resultado = document.getElementById("resultado");
 
   if (password === "911") {
-    resultado.innerText = "Password 1 correcto";
+    resultado.innerHTML = "Password 1 correcto";
     return;
   }
 
   if (password === "714") {
-    resultado.innerText = "Password 2 correcto";
+    resultado.innerHTML = "Password 2 correcto";
     return;
   }
 
-  resultado.innerText = "Password incorrecto";
+  resultado.innerHTML = "Password incorrecto";
 });
 
